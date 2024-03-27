@@ -1,0 +1,23 @@
+@api = http://localhost:3000/empleado
+
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+{
+    "Nombre": "Juan",
+    "Identificacion": 123456,
+    "IdPuesto": 1,
+    "FechaContratacion":"2024-01-03T00:00:00.000Z",
+    "SaldoVacaciones": 10,
+    "EsActivo": 1
+}
+###
+
+//"Nombre": "Juan",
+    //"Identificacion": 123456,
+    //"IdPuesto": 1,
+    //"FechaContratacion":"2024-01-03T00:00:00.000Z",
+    //"SaldoVacaciones": 0,
+    //"EsActivo": 1
